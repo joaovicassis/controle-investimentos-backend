@@ -41,10 +41,10 @@ A API estará disponível em `http://localhost:3000` e a documentação Swagger 
 
 ### Endpoints
 
-- `POST /investimentos` - Criar novo investimento
-- `GET /investimentos` - Listar todos os investimentos
-- `PUT /investimentos/:id` - Atualizar investimento
-- `DELETE /investimentos/:id` - Deletar investimento
+- `POST /criaInvestimentos` - Criar novo investimento
+- `GET /listaInvestimentos ` - Listar todos os investimentos
+- `PUT /atualizaInvestimentos/:id` - Atualizar investimento
+- `DELETE /deletaInvestimentos/:id` - Deletar investimento
 
 ### Exemplo de payload para criação/atualização
 
